@@ -1,0 +1,66 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+   
+  }
+  
+  /* .card {
+    padding: 2rem;
+  } */
+  
+  body {
+    margin: 0;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh; 
+    background: #b8d5f5;
+    background: linear-gradient(to right, #abcbf5, #33aeff);
+    
+  }
+  
+  
+  p{
+    text-align: left;
+    padding: 10px;
+    font-weight:700;
+  }
+  
+  
+  .ed{
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+#formList{
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  gap: 40px;
+  
+}
+
+#inputArea{
+ margin-left: 13%;
+ 
+}
+   
+#editForm{
+  margin-left: 0%;
+}
+  
+#sticky{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: rgb(14, 113, 201);
+  background: linear-gradient(to right, #abcbf5, #33aeff);
+  padding: 20px;
+}
+  
+  .card{
+    background: linear-gradient(to right, #627691, #acd6f3);
+  }
